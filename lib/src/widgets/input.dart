@@ -168,6 +168,7 @@ class _InputState extends State<Input> {
                       if (widget.onAttachmentPressed != null) _leftWidget(),
                       Expanded(
                         child: TextField(
+                           keyboardAppearance: Brightness.light,
                           controller: _textController,
                           cursorColor: InheritedChatTheme.of(context)
                               .theme
